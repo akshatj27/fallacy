@@ -1,0 +1,26 @@
+logo: "/assets/images/pi.svg"
+title: "Fallacy.me"
+remote_theme: just-the-docs/just-the-docs
+color_scheme: "dark"
+search_enabled: false
+email: hey@akshat.sh
+description: Hey there
+
+latex: katex
+compress_html:
+  blanklines: true
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
